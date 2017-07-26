@@ -21,9 +21,9 @@
     <%= form.text_field :team_id, id: :user_team_id %>
   </div>
 
-  <div class="field">
-    <%= form.label :avatar %>
-    <%= form.text_field :avatar, id: :user_avatar %>
+  <div class="form-group">
+    <strong>Upload a Profile Pic:</strong>
+    <%= form.file_field :avatar %>
   </div>
 
   <div class="actions">
