@@ -7,6 +7,8 @@ end
 
 gem 'faker'
 gem 'carrierwave', '~>1.0'
+gem 'fog'
+gem 'figaro'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.2'
