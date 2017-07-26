@@ -12,7 +12,9 @@
 
 <p>
   <strong>Avatar:</strong>
-  <%= image_tag @user.avatar %>
+  <% if !@user.avatar.nil? %>
+  	<%= image_tag @user.avatar %>
+  <% end %>
 </p>
 
 <%= link_to 'Edit', edit_user_path(@user) %> |
